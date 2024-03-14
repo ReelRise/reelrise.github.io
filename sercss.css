@@ -1,0 +1,235 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.3)  url(assets/bg\ portfolio.jpg) ;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+   
+  
+    
+    
+}
+
+/* Adjust transparency here (0.5 means 50% opaque black) */
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+
+    
+    background-color: #21297e8e;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    
+    
+    
+}
+.topi{
+    margin-top: 20px;
+    
+}
+
+.logo {
+    display: flex;
+    
+    
+    padding-left: 10px;
+    padding-top: 5px;
+    position:absolute;
+    width: 70px;
+    height: auto;
+    
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+#kategoria {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffd451; /* Change the color on hover as desired */
+}
+
+.pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 150px ;
+    margin-top:150px ;
+    
+    
+    
+    flex-wrap: wrap;
+    
+    padding: 2rem;
+}
+
+
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 20px;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 25), 0 5px 5px rgba(0, 0, 0, 22) ;
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.2s ease-in ;
+    font-family: "poppins" , sans-serif;
+
+}
+
+.card-wrapper:hover{
+    transform: scale(1.1);
+}
+
+.card-header{
+    margin: 1rem;
+    text-align: center;
+    
+
+}
+
+
+
+
+.card-wrapper:hover .card-header .gold  {
+    transform: scale(1.1);
+    color: #FFD700;
+    letter-spacing: 2;
+}
+.card-wrapper:hover .card-header > h2 {
+    transform: scale(1.1);
+    color: #5222d0;
+    letter-spacing: 2;
+
+}
+
+
+
+.card-header > img {
+    width: 300px;
+    display: block;
+    margin:0 auto;
+}
+
+.card-detail {
+    width: 100%;
+}
+.card-detail > p{
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border-bottom: 1px solid #d5d5d5;
+}
+.check  {
+    color: #5222d0;
+}
+.golden {
+    color: #FFD700;
+}
+
+.nocheck {
+    color: #ec615b;
+}
+
+.card-detail > p:hover{
+    background-color: #eae9e9;
+    border-radius: 20px;
+}
+.card-price {
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+
+
+.card-pricing {
+    display: flex;
+    align-items: flex-start;
+
+    margin: 1rem;
+}
+.card-pricing > p{
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+
+.card-pricing > p > sub,
+.card-pricing > p > sub{
+    font-size: 1rem;
+}
+
+.card-button{
+    padding: 0.6rem 3rem;
+    border: 2px solid #5222d0;
+    background-color: #5222d0;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 50ms ease-in ;
+
+}
+
+.goldbutton {
+    padding: 0.6rem 3rem;
+    border: 2px solid #FFD700;
+    background-color: #f3ce00;
+    color: rgb(255, 253, 253);
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 50ms ease-in ;
+
+}
+
+.card-button:hover{
+    border: 2px solid #ec615b;
+    background-color: transparent;
+    color: #ec615b;
+    font-weight: 800;
+}
+
+.bolo{
+    
+    margin-bottom: auto;
+    padding-top: 390px;
+}
+.bolo  h3 {
+    margin-left: 5rem;
+    color: #d5d5d5a1;
+}

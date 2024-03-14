@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png"  href="assets/logoicon.png" >
+    <link
+  href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+  rel="stylesheet"
+/>
+<link href="https://unpkg.com/@videojs/themes@1.0.1/dist/forest/index.css" rel="stylesheet">
+
+</head>
+<body id="portfoliobg">
+
+
+    <div class="bgimage"></div>
+    <header>
+        <a href="index.html">
+        <img src="logo.png" alt="Your Logo" class="logo">
+    </a>
+    <a href="index.html"> <h1 class="topi">Reel Rise</h1>
+        </a>
+        <nav id="navig" >
+            <ul id = " kategoria">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li ><a href="contact.html" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 id="satauri">Lights, Camera, Action: Your Story, Our Expertise</h1>
+
+    <style>
+        
+        
+       
+
+
+
+.my-video {
+    width: 100%; /* Use a percentage to make the video responsive */
+    max-width: 1080px; /* Set a maximum width for larger screens */
+    height: 720px; /* Maintain aspect ratio */
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.video-js[poster]{object-fit: initial};
+
+
+
+
+
+
+    
+
+
+
+
+
+
+        
+    </style>
+<div class="videoc">
+    <video  class="vjs-theme-forest my-video video-js "  data-setup="{}" controls   poster="video/vintagescreen1." >
+        <source src="vintage.mp4"  >
+        
+
+
+
+
+
+    </video>
+
+    <h1 id="satauri2">From Concept to Screen: Where Ideas Come to Life</h1>
+
+     <video  class="vjs-theme-forest my-video video-js"  data-setup="{}" controls   poster="video/termitiscreen1."  >
+        <source src="termiti.mp4"  > 
+    
+        
+
+
+
+
+
+    </video>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="bolo">
+    <footer >
+        <hr>
+        <h3 >Reel Rise <br>   &copy;Copyright Reserved </h3>
+        <h4>   </h4>
+         
+    
+    </footer>
+</div>
+
+<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
